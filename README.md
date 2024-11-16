@@ -1,6 +1,8 @@
 # WhenAPayloadCalls
 A shellcode obfuscation technique using existing files on the target machine
 
+![Image](./call.png)
+
 This is a shellcode obfuscation technique using a file which already exists on the target computer. You will need an **EXACT** byte for byte copy of the file you are targeting. As such this is not meant as a general "out of the box" obfuscation technique, but rather one that is specifically tailored to that specific target system. It is also possible to upload your own file to the target system and use that to generate your payload.
 
 ## How it works
